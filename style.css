@@ -504,7 +504,7 @@ html{
 
 .proyecto {
     position: relative;
-    width: 30%; /* Ajusta según tus necesidades */
+    width: 30%; 
     overflow: hidden;
     margin-bottom: 20px;
 }
