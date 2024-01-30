@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <title>Portfolio Sergio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sergio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="/img/foto.jpg" alt="foto">
+            </div>
+            <h1>Sergio Esteban</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/sergio-esteban-229a55279/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/sergioironhacker"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sergio </span>¡Hola! Soy Sergio Esteban, estudiante en Ironhack y un apasionado del
+                desarrollo web. Poseo experiencia trabajando con tecnologías como MongoDB, Express.js, React.js y
+                Node.js, construyendo aplicaciones web dinámicas y altamente funcionales. Me encanta aprender de forma
+                continua y enfrentar desafíos creativos.
+
+                Mi enfoque se centra en el aprendizaje constante para ampliar mis habilidades y encontrar soluciones
+                innovadoras. Actualmente, me encuentro en la búsqueda activa de oportunidades laborales para aplicar mis
+                conocimientos y expandir mis capacidades en un entorno profesional.
+
+                ¡Me emociona seguir creciendo y contribuir al mundo del desarrollo web!.</p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            30/04/1995
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            689195597
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sergioss772022@gmail.com
+                        </li>
+                    </ul>
+
+                    <button class="centrado" onclick="descargarCV()">
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="intereses">
+                        <i class="fas fa-code"></i>
+                        <span>Ser un gran desarrollador web</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Express</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Soft Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ganas de aprender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad y flexibilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ironhack</h4>
+                        <span class="casa">Ironhack Madrid</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Mi formación en Ironhack fue una experiencia transformadora en mi viaje hacia
+                            convertirme en un Desarrollador Web especializado en el stack MERN (MongoDB,
+                            Express, React, Node.js). Durante el bootcamp, sumergirme en este ecosistema
+                            tecnológico me permitió entender a profundidad cada una de sus tecnologías y
+                            su interconexión para el desarrollo de aplicaciones web modernas y
+                            dinámicas.
+
+                            Explorar la estructura del bootcamp en Ironhack me brindó un entorno
+                            educativo excepcional, con proyectos prácticos que desafiaron mis
+                            habilidades y conocimientos día a día. La orientación experta y el enfoque
+                            práctico del programa no solo mejoraron mi comprensión técnica, sino que
+                            también fomentaron mi capacidad para resolver problemas y trabajar en
+                            equipo, habilidades esenciales en la industria del desarrollo.
+
+                            Estoy agradecido por haber tenido la oportunidad de aprender y crecer en
+                            Ironhack, ya que me proporcionó las bases sólidas y la confianza necesaria
+                            para enfrentar desafíos reales en el mundo del desarrollo web utilizando el
+                            stack MERN</p>
+                    </div>
+
+
+                    <section id="curriculum" class="curriculum">
+                        <div class="contenido-seccion">
+                            <h2>Experiencia de Trabajo</h2>
+                            <div class="fila">
+                                <div class="col derecha">
+                                    <h3>Experiencia de Trabajo</h3>
+                                    <div class="item der">
+                                        <h4>Ironhack</h4>
+                                        <span class="casa">Ironhack Madrid</span>
+                                        <span class="fecha">2023 - 2024</span>
+                                        <p>Mi experiencia en proyectos durante mi paso por Ironhack fue
+                                            increíblemente enriquecedora. Trabajar en equipos para
+                                            desarrollar aplicaciones web utilizando el stack MERN fue
+                                            desafiante y gratificante a la vez. Estos proyectos me
+                                            brindaron una comprensión práctica de cómo crear soluciones
+                                            innovadoras utilizando tecnologías modernas. A través de
+                                            estas experiencias, perfeccioné mis habilidades técnicas y
+                                            aprendí a abordar problemas del mundo real con creatividad y
+                                            enfoque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="portfolio" class="portfolio">
+                        <div class="contenido-seccion">
+                            <h2>PORTFOLIO</h2>
+                            <div class="galeria">
+                                <div class="proyecto">
+                                    <img src="/img/Presentacion.jpg" alt="juego">
+                                    <div class="overlay">
+                                        <h3>Diseño Creativo</h3>
+                                        <p>Juego</p>
+                                    </div>
+                                </div>
+                                <div class="proyecto">
+                                    <img src="" alt="">
+                                    <div class="overlay">
+                                        <h3>Diseño Creativo</h3>
+                                        <p>Web Noticias</p>
+                                    </div>
+                                </div>
+                                <div class="proyecto">
+                                    <img src="" alt="">
+                                    <div class="overlay">
+                                        <h3>Diseño Creativo</h3>
+                                        <p>Fotografía</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contacto" class="contacto">
+                        <div class="contenido-seccion">
+                            <h2>CONTACTO</h2>
+                            <div class="fila">
+                                <!-- Formulario -->
+                                <div class="col">
+                                    <input type="text" placeholder="Tú Nombre">
+                                    <input type="text" placeholder="Número telefónico">
+                                    <input type="text" placeholder="Dirección de correo">
+                                    <input type="text" placeholder="Tema">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                                    <button>
+                                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                                        <span class="overlay"></span>
+                                    </button>
+                                </div>
+                                <!-- Mapa -->
+                                <div class="col">
+                                    <img src="img/ubicacion.png" alt="">
+                                    <div class="info">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                Segovia
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-mobile-screen"></i>
+                                                Telefono: 689195597
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-envelope"></i>
+                                                Email: sergioss772022@gmail.com
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- footer -->
+                    <footer>
+                        <a href="#inicio" class="arriba">
+                            <i class="fa-solid fa-angles-up"></i>
+                        </a>
+                        <div class="redes">
+                            <a href="https://www.linkedin.com/in/sergio-esteban-229a55279/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/sergioironhacker"><i class="fab fa-github"></i></a>
+                        </div>
+                    </footer>
+
+
+
+                    <script>
+                        function descargarCV() {
+                        
+                            var url = 'ruta/a/tu/cv.pdf';
+
+                           
+                            var link = document.createElement('a');
+                            link.href = url;
+                            link.download = 'cv-sergio-esteban.pdf';
+
+                           
+                            document.body.appendChild(link);
+
+                           
+                            link.click();
+
+                           
+                            document.body.removeChild(link);
+                        }
+
+                    </script>
+
+                    <script src="scripts.js"></script>
+</body>
+
+</html>
