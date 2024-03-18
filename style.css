@@ -821,4 +821,10 @@ footer .arriba{
     }
 }
 
+.proyecto img {
+    width: 200px; /* Establece el ancho deseado para todas las imágenes */
+    height: 150px; /* Establece la altura deseada para todas las imágenes */
+}
+
+
 
